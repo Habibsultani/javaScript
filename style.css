@@ -1,9 +1,11 @@
 body {
   background-color: aquamarine;
-  margin: 300px auto;
+  margin: 400px auto;
 }
 
 h1 {
   font-size: 80px;
   text-align: center;
+  font-family: sans-serif;
+  color: #444;
 }

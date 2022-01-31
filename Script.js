@@ -66,24 +66,43 @@ m tall.
 GOOD LUCK 😀
 */
 
-// data 1
-// const massmark = 78;
-// const hieghtmark = 1.69;
-// const massjhon = 92;
-// const hieghtjhon = 1.95;
+/*
 
-// const BMImark = massmark / hieghtmark ** 2;
-// const BMIjhon = massjhon / (hieghtjhon * hieghtjhon);
-// const markHigherBMI = BMImark > BMIjhon;
-// console.log(BMImark, BMIjhon, markHigherBMI);
-// data 2
-// const massmark = 95;
-// const hieghtmark = 1.88;
-// const massjhon = 85;
-// const hieghtjhon = 1.76;
-// const BMImark = massmark / hieghtmark ** 2;
-// const BMIjhon = massjhon / (hieghtmark * hieghtmark);
-// console.log(BMImark, BMIjhon);
+data 1
+const massmark = 78;
+const hieghtmark = 1.69;
+const massjhon = 92;
+const hieghtjhon = 1.95;
 
-// const markHigherBMI = BMImark > BMIjhon;
-// console.log(markHigherBMI);
+const BMImark = massmark / hieghtmark ** 2;
+const BMIjhon = massjhon / (hieghtjhon * hieghtjhon);
+const markHigherBMI = BMImark > BMIjhon;
+console.log(BMImark, BMIjhon, markHigherBMI);
+*/
+//data 2
+const massmark = 95;
+const hieghtmark = 1.88;
+const massjhon = 85;
+const hieghtjhon = 1.76;
+const BMImark = massmark / hieghtmark ** 2;
+const BMIjhon = massjhon / (hieghtmark * hieghtmark);
+console.log(BMImark, BMIjhon);
+const markHigherBMI = BMImark < BMIjhon;
+console.log(markHigherBMI);
+/*
+Coding Challenge #2
+Use the BMI example from Challenge #1, and the code you already wrote, and
+improve it.
+Your tasks:
+1. Print a nice output to the console, saying who has the higher BMI. The message
+is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+BMI (28.3) is higher than John's (23.9)!"
+Hint: Use an if/else statement 😉
+GOOD LUCK 😀
+*/
+if (markHigherBMI) {
+  console.log(`Mark's BMI is higher than John's!`);
+} else {
+  console.log(`Mark's BMI ${BMImark} is higher than jhon's ${BMIjhon}`);
+}

@@ -133,19 +133,41 @@ Test data:
 GOOD LUCK 😀
 */
 
-const dolphinsAvearage = (96 + 108 + 89) / 3;
+// const dolphinsAvearage = (96 + 108 + 89) / 3;
+// console.log(dolphinsAvearage);
+// const koalasAvearage = (88 + 91 + 110) / 3;
+// console.log(koalasAvearage);
+
+// if (dolphinsAvearage > koalasAvearage) {
+//   console.log("Dolphins team is the champian!");
+// } else {
+//   console.log("Koalas team is the champian!");
+// }
+
+// if (dolphinsAvearage === koalasAvearage) {
+//   console.log("This is a draw match");
+// } else {
+//   console.log("This is not a draw match");
+// }
+/////Bunas !
+
+const dolphinsAvearage = (97 + 112 + 101) / 3;
 console.log(dolphinsAvearage);
-const koalasAvearage = (88 + 91 + 110) / 3;
+const koalasAvearage = (109 + 95 + 106) / 3;
 console.log(koalasAvearage);
 
-if (dolphinsAvearage > koalasAvearage) {
-  console.log("Dolphins team is the champian!");
-} else {
-  console.log("Koalas team is the champian!");
-}
+// if (
+//   dolphinsAvearage > koalasAvearage &&
+//   dolphinsAvearage >= 100 &&
+//   koalasAvearage >= 100
+// ) {
+//   console.log("Dolphins team is the champian!");
+// } else {
+//   console.log("Koalas team is the champian!");
+// }
 
-if (dolphinsAvearage === koalasAvearage) {
-  console.log("This is a draw match");
-} else {
-  console.log("This is not a draw match");
-}
+// if (dolphinsAvearage === koalasAvearage) {
+//   console.log("This is a draw match");
+// } else {
+//   console.log("This is not a draw match");
+// }

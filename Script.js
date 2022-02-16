@@ -1,3 +1,5 @@
+"use strict";
+
 // console.log(12 + 65 + 56 + 645);
 // let js = "Amazing";
 // console.log(js);
@@ -219,8 +221,85 @@ Hints:
 GOOD LUCK 😀
 */
 
-const bill = 430;
-const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const bill = 430;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value
-  ${tip + bill}`);
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value
+//   ${tip + bill}`);
+
+/////////////////////////////////////
+////////////// FUANCTION /////////////
+/////////////////////////////////////
+
+// function logger() {
+//   console.log("My name is Habib");
+// }
+
+// logger();
+
+// function fruitProceccors(apples, banana) {
+//   const juice = `juice with ${apples} apples and ${banana} bananas`;
+//   return juice;
+// }
+
+// console.log(fruitProceccors(6, 4));
+// console.log(fruitProceccors(10, 20));
+
+// function habibandmahmodage(habib, mahmod) {
+//   const typeAges = `my age is ${habib} and his age is
+//   ${mahmod} `;
+//   return typeAges;
+// }
+
+// console.log(habibandmahmodage(20, 30));
+// console.log(habibandmahmodage(24, 23));
+
+/// function declration
+
+// function calcAge1(birthyear) {
+//   return 2022 - birthyear;
+// }
+
+// console.log(calcAge1(2002));
+
+// /// Function expresion
+
+// const calcAge2 = function (birthyear) {
+//   return 2022 - birthyear;
+// };
+
+// console.log(calcAge2(2002));
+
+/// Arrow function
+
+const calcAge3 = (birthyear) => 2022 - birthyear;
+const age3 = calcAge3(2002);
+console.log(age3);
+
+/*
+  Coding Challenge #1
+Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new
+gymnastics discipline, which works differently.
+Each team competes 3 times, and then the average of the 3 scores is calculated (so
+one average score per team).
+A team only wins if it has at least double the average score of the other team.
+Otherwise, no team wins!
+Your tasks:
+1. Create an arrow functyion 'calcAverage' to calculate the average of 3 scores
+2. Use the function to calculate the average for both teams
+3. Create a function 'checkWinner' that takes the average score of each team
+as parameters ('avgDolhins' and 'avgKoalas'), and then logs the winner
+to the console, together with the victory points, according to the rule above.
+Example: "Koalas win (30 vs. 13)"
+4. Use the 'checkWinner' function to determine the winner for both Data 1 and
+Data 2
+5. Ignore draws this time
+Test data:
+§ Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
+§ Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
+Hints:
+§ To calculate average of 3 values, add them all together and divide by 3
+§ To check if number A is at least double number B, check for A >= 2 * B.
+Apply this to the team's average scores 😉
+GOOD LUCK 😀
+*/

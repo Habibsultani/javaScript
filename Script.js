@@ -276,13 +276,30 @@ GOOD LUCK 😀
 // const age3 = calcAge3(2002);
 // console.log(age3);
 
-const ageUntilretirment = (birthyear) => {
-  const age = 2022 - birthyear;
-  const retirmentAge = 65 - age;
-  return retirmentAge;
-};
+// const ageUntilretirment = (birthyear) => {
+//   const age = 2022 - birthyear;
+//   const retirmentAge = 65 - age;
+//   return retirmentAge;
+// };
 
-console.log(ageUntilretirment(1978));
+// console.log(ageUntilretirment(1978));
+
+/// function calling other function
+
+function friutPices(friut) {
+  return friut * 5;
+}
+
+function fruitProceccors(apples, banana) {
+  const applePices = friutPices(apples);
+  const bananaPices = friutPices(banana);
+
+  const friut = `juice with ${applePices} apples 
+  and with ${bananaPices} banana`;
+  return friut;
+}
+
+console.log(fruitProceccors(4, 6));
 
 /*
   Coding Challenge #1
@@ -311,3 +328,38 @@ Hints:
 Apply this to the team's average scores 😉
 GOOD LUCK 😀
 */
+
+const calcAverage = (scors) => scors / 3;
+
+let calcAveraged = calcAverage(44 + 23 + 70);
+let calcAveragek = calcAverage(65 + 54 + 49);
+
+///data 1
+
+function checkWinner(avgDolhins, avgKoalas) {
+  if (avgDolhins >= 2 * avgKoalas) {
+    console.log(`dolphin win ${avgDolhins} .vs ${avgKoalas}`);
+  } else if (avgKoalas >= 2 * avgDolhins) {
+    console.log(`koalas wins ${avgKoalas} vs. ${avgDolhins}`);
+  } else {
+    console.log(`NO team wins`);
+  }
+}
+
+const winner = checkWinner(calcAveraged, calcAveragek);
+console.log(winner);
+
+const winnera = checkWinner(250, 50);
+console.log(winnera);
+
+const winnerb = checkWinner(50, 250);
+console.log(winnerb);
+
+//data 2
+
+//85, 54 and 41. Koalas score 23, 34 and 27
+calcAveraged = calcAverage(85 + 54 + 41);
+calcAveragek = calcAverage(23 + 34 + 27);
+
+const winnerdata2 = checkWinner(calcAveraged, calcAveragek);
+console.log(winnerdata2);

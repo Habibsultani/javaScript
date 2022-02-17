@@ -272,9 +272,17 @@ GOOD LUCK 😀
 
 /// Arrow function
 
-const calcAge3 = (birthyear) => 2022 - birthyear;
-const age3 = calcAge3(2002);
-console.log(age3);
+// const calcAge3 = (birthyear) => 2022 - birthyear;
+// const age3 = calcAge3(2002);
+// console.log(age3);
+
+const ageUntilretirment = (birthyear) => {
+  const age = 2022 - birthyear;
+  const retirmentAge = 65 - age;
+  return retirmentAge;
+};
+
+console.log(ageUntilretirment(1978));
 
 /*
   Coding Challenge #1

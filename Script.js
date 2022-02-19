@@ -286,20 +286,20 @@ GOOD LUCK 😀
 
 /// function calling other function
 
-function friutPices(friut) {
-  return friut * 5;
-}
+// function friutPices(friut) {
+//   return friut * 5;
+// }
 
-function fruitProceccors(apples, banana) {
-  const applePices = friutPices(apples);
-  const bananaPices = friutPices(banana);
+// function fruitProceccors(apples, banana) {
+//   const applePices = friutPices(apples);
+//   const bananaPices = friutPices(banana);
 
-  const friut = `juice with ${applePices} apples 
-  and with ${bananaPices} banana`;
-  return friut;
-}
+//   const friut = `juice with ${applePices} apples
+//   and with ${bananaPices} banana`;
+//   return friut;
+// }
 
-console.log(fruitProceccors(4, 6));
+// console.log(fruitProceccors(4, 6));
 
 /*
   Coding Challenge #1
@@ -329,37 +329,73 @@ Apply this to the team's average scores 😉
 GOOD LUCK 😀
 */
 
-const calcAverage = (scors) => scors / 3;
+// const calcAverage = (scors) => scors / 3;
 
-let calcAveraged = calcAverage(44 + 23 + 70);
-let calcAveragek = calcAverage(65 + 54 + 49);
+// let calcAveraged = calcAverage(44 + 23 + 70);
+// let calcAveragek = calcAverage(65 + 54 + 49);
 
-///data 1
+// ///data 1
 
-function checkWinner(avgDolhins, avgKoalas) {
-  if (avgDolhins >= 2 * avgKoalas) {
-    console.log(`dolphin win ${avgDolhins} .vs ${avgKoalas}`);
-  } else if (avgKoalas >= 2 * avgDolhins) {
-    console.log(`koalas wins ${avgKoalas} vs. ${avgDolhins}`);
-  } else {
-    console.log(`NO team wins`);
-  }
-}
+// function checkWinner(avgDolhins, avgKoalas) {
+//   if (avgDolhins >= 2 * avgKoalas) {
+//     console.log(`dolphin win ${avgDolhins} .vs ${avgKoalas}`);
+//   } else if (avgKoalas >= 2 * avgDolhins) {
+//     console.log(`koalas wins ${avgKoalas} vs. ${avgDolhins}`);
+//   } else {
+//     console.log(`NO team wins`);
+//   }
+// }
 
-const winner = checkWinner(calcAveraged, calcAveragek);
-console.log(winner);
+// const winner = checkWinner(calcAveraged, calcAveragek);
+// console.log(winner);
 
-const winnera = checkWinner(250, 50);
-console.log(winnera);
+// const winnera = checkWinner(250, 50);
+// console.log(winnera);
 
-const winnerb = checkWinner(50, 250);
-console.log(winnerb);
+// const winnerb = checkWinner(50, 250);
+// console.log(winnerb);
 
-//data 2
+// //data 2
 
-//85, 54 and 41. Koalas score 23, 34 and 27
-calcAveraged = calcAverage(85 + 54 + 41);
-calcAveragek = calcAverage(23 + 34 + 27);
+// //85, 54 and 41. Koalas score 23, 34 and 27
+// calcAveraged = calcAverage(85 + 54 + 41);
+// calcAveragek = calcAverage(23 + 34 + 27);
 
-const winnerdata2 = checkWinner(calcAveraged, calcAveragek);
-console.log(winnerdata2);
+// const winnerdata2 = checkWinner(calcAveraged, calcAveragek);
+// console.log(winnerdata2);
+
+/// ARRAY SECTION
+
+// const frinds = ["Bismellah", "Alem", "nawid", "Murtaza"];
+
+// frinds.push("jawad");
+// console.log(frinds[0]);
+
+// console.log(frinds, frinds.length);
+
+// frinds.unshift();
+// console.log(frinds);
+
+/*
+ Coding Challenge #2
+Steven is still building his tip calculator, using the same rules as before: Tip 15% of
+the bill if the bill value is between 50 and 300, and if the value is different, the tip is
+20%.
+Your tasks:
+1. Write a function 'calcTip' that takes any bill value as an input and returns
+the corresponding tip, calculated based on the rules above (you can check out
+the code from first tip calculator challenge if you need to). Use the function
+type you like the most. Test the function using a bill value of 100
+2. And now let's use arrays! So create an array 'bills' containing the test data
+below
+3. Create an array 'tips' containing the tip value for each bill, calculated from
+the function you created before
+4. Bonus: Create an array 'total' containing the total values, so the bill + tip
+Test data: 125, 555 and 44
+Hint: Remember that an array needs a value in each position, and that value can
+actually be the returned value of a function! So you can just call a function as array
+values (so don't store the tip values in separate variables first, but right in the new
+array) 😉
+
+GOOD LUCK 😀
+ */

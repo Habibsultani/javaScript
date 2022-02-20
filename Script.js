@@ -400,17 +400,45 @@ array) 😉
 GOOD LUCK 😀
  */
 
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
+
+// const bills = [125, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+
+// const total = [
+//   calcTip(bills[0]) + calcTip(tips[0]),
+//   calcTip(bills[0]) + calcTip(tips[0]),
+//   calcTip(bills[0]) + calcTip(tips[0]),
+// ];
+
+// console.log(bills, tips, total);
+///////////////////////////
+////  OBJECT SECTION /////
+/////////////////////////
+
+const habib = {
+  firstName: "habib",
+  lastName: "sultani",
+  age: 2022 - 2002,
+  job: "developer",
+  // ['Bismellsh', 'Alem', 'jhon']
 };
 
-const bills = [125, 555, 44];
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+console.log(habib.age);
+console.log(habib["lastName"]);
 
-const total = [
-  calcTip(bills[0]) + calcTip(tips[0]),
-  calcTip(bills[0]) + calcTip(tips[0]),
-  calcTip(bills[0]) + calcTip(tips[0]),
-];
+const interstedIn = prompt(`If you are intersted? please choose between 
+  firstName, lastName, age, job`);
 
-console.log(bills, tips, total);
+habib.location = "Kabul-Afghanistan";
+habib["twitter"] = "@habibsultani_";
+
+if (habib[interstedIn]) {
+  console.log(habib[interstedIn]);
+} else {
+  console.log(`wrong option! please choose correct one`);
+}
+
+console.log(habib[interstedIn]);

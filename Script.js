@@ -329,22 +329,7 @@ Apply this to the team's average scores 😉
 GOOD LUCK 😀
 */
 
-// const calcAverage = (scors) => scors / 3;
-
-// let calcAveraged = calcAverage(44 + 23 + 70);
-// let calcAveragek = calcAverage(65 + 54 + 49);
-
-// ///data 1
-
-// function checkWinner(avgDolhins, avgKoalas) {
-//   if (avgDolhins >= 2 * avgKoalas) {
-//     console.log(`dolphin win ${avgDolhins} .vs ${avgKoalas}`);
-//   } else if (avgKoalas >= 2 * avgDolhins) {
-//     console.log(`koalas wins ${avgKoalas} vs. ${avgDolhins}`);
-//   } else {
-//     console.log(`NO team wins`);
-//   }
-// }
+//?
 
 // const winner = checkWinner(calcAveraged, calcAveragek);
 // console.log(winner);
@@ -355,16 +340,16 @@ GOOD LUCK 😀
 // const winnerb = checkWinner(50, 250);
 // console.log(winnerb);
 
-// //data 2
+//data 2
 
-// //85, 54 and 41. Koalas score 23, 34 and 27
+//85, 54 and 41. Koalas score 23, 34 and 27
 // calcAveraged = calcAverage(85 + 54 + 41);
 // calcAveragek = calcAverage(23 + 34 + 27);
 
 // const winnerdata2 = checkWinner(calcAveraged, calcAveragek);
 // console.log(winnerdata2);
 
-/// ARRAY SECTION
+// / ARRAY SECTION
 
 // const frinds = ["Bismellah", "Alem", "nawid", "Murtaza"];
 
